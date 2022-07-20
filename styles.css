@@ -41,12 +41,16 @@
     margin-bottom: 15px;
     text-align: center;
     color: black;
+    background-color: white;
+    border-radius: 15px;
 }
 .section-button{
     border: 2px solid orange;
     width:15%;
     padding:30px;
     height: 220px;
+    background-color: black;
+    border-radius: 15px;
 }
 /* section menu style end */
 
