@@ -117,6 +117,7 @@
 .match-history{
     display: flex;
     justify-content: space-around;
+    margin-bottom: 120px;
 }
 .all-matches{
     display:grid;
