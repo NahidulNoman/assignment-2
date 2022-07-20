@@ -82,6 +82,8 @@ body{
     width:90%
 }
 /* section card style end */
+
+
 /* footer style start */
 .footer{
     background-color: beige;
@@ -91,7 +93,8 @@ body{
     text-align: center;
     font-size: 40px;
     border-bottom: 2px solid black;
-    margin-bottom: 25px;
+    width: 700px;
+    margin: 0 auto;
 }
 .footer-list ul li{
     list-style: none;
