@@ -44,6 +44,10 @@
     background-color: white;
     border-radius: 15px;
 }
+.section-button .blog{
+    background-color: #DD0000;
+    color: white;
+}
 .section-button{
     border: 2px solid orange;
     width:15%;
