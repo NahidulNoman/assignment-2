@@ -135,8 +135,7 @@ body{
 .footer h1{
     text-align: center;
     font-size: 40px;
-    border-bottom: 1px solid #FFFFFF ;
-    width: 700px;
+    
     margin: 0 auto;
 }
 .footer-list ul li{
@@ -148,6 +147,19 @@ body{
     margin: 0 auto;
     text-align: center;
     margin-top: 30px;
+    border-top: 1px solid #FFFFFF ;
+    width: 50%;
+}
+.footer-icon a i {
+    text-decoration: none;
+    color:white;
+    font-size: 25px;
+    padding:8px;
+  
+}
+.footer-icon {
+    margin: 0 auto;
+    text-align: center;
 }
 
 /* footer style end */
@@ -182,7 +194,7 @@ body{
     padding:30px;
     box-shadow: 3px 3px 20px #b9b8b8;
 }
-/*------------ .match honer --------------*/
+/*------------ .match hover --------------*/
 .match:hover{
     transform: scale(0.9);
     transition-duration: 0.9s;
@@ -206,3 +218,88 @@ body{
     margin-top: 20px;
 }
 /* -----matches style added from another html file end --------*/
+
+/* -----------media query start-------------*/
+
+@media only screen and (max-width:510px) {
+    .banner-top{
+        flex-direction: column;
+    }
+    .banner-left{
+        margin: 0 auto;
+        text-align: center;
+    }
+    .banner-left h1{
+        font-size: 40px;
+    }
+    .banner-right{
+        width:60%;
+        margin-left: 30px;
+    }
+    .main-section{
+        flex-direction: column;
+    }
+    .section-button{
+        width:70%;
+        margin:0 auto;
+        margin-bottom: 50px;
+    }
+    .all-card{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .footer-list{
+        margin: 0 auto;
+        text-align: center;
+    }
+    .match-history{
+        flex-direction: column;
+    }
+    .all-matches{
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0 auto;
+    }
+}
+@media only screen and (max-width:995px)  {
+    .banner-left h1{
+        font-size:30px;
+    }
+    .banner-left{
+        margin-left: 30px;
+    }
+    .banner-top{
+        margin: 0 auto;
+        width:90%;
+        margin-bottom: 60px;
+    }
+    .banner-right img{
+       width:99%; 
+    }
+    .main-section{
+        flex-direction: column;
+    }
+    .section-button{
+        width:75%;
+        margin: 0 auto;
+        height: 54px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+    .section-button a{
+        display: inline-block;
+        margin: 0 auto;
+    }
+    .all-card{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .match-history{
+        flex-direction: column;
+    }
+    .all-matches{
+        grid-template-columns: repeat(2, 1fr);
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+
+
+/* -----------media query end-------------*/
